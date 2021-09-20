@@ -24,6 +24,14 @@ basic.forever(function () {
             # . . . #
             . # # # .
             `)
+    } else if (Figur == 2) {
+        basic.showLeds(`
+            # # # # .
+            # . . # .
+            # . . # .
+            # . # # #
+            # . . # .
+            `)
     } else {
         basic.showNumber(Figur)
     }
